@@ -20,12 +20,11 @@ Given a description of an NFA, an equivalent DFA is Constructed.
   - A string describing an NFA is of the form Z#O#E#F, where Z, O, and E, respectively, represent the 0-transitions, the 1-transitions, and the ε-transitions. F represents the set of accept state.
   - Z, O, and E are semicolon-separated sequences of pairs of states; each pair is a commaseparated sequence of two states. A pair i, j represents a transition from state i to state j; for Z this means that δ(i, 0) = j, similarly for O and E.
   - F is a comma-separated sequence of states.
-  - For example, the NFA for which the state diagram appears below may have the following string representation.
+
+For example, the NFA for which the state diagram appears below may have the following string representation.
 
 **0,0;1,2;3,3#0,0;0,1;2,3;3,3#1,2#3**
+![NFA](https://github.com/abdallahaymaan/NFA_to_DFA/blob/main/DFA.JPG)
 
-1q0 q1 q2 q3
-1 0, ε 1
-0, 1 0, 1
-• run simulates the operation of the constructed DFA on a given binary string. It returns
+  - run simulates the operation of the constructed DFA on a given binary string. It returns
 true if the string is accepted by the DFA and false otherwise.
