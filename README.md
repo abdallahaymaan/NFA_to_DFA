@@ -24,6 +24,7 @@ Given a description of an NFA, an equivalent DFA is Constructed.
 For example, the NFA for which the state diagram appears below may have the following string representation.
 
 **0,0;1,2;3,3#0,0;0,1;2,3;3,3#1,2#3**
+
 ![NFA](https://github.com/abdallahaymaan/NFA_to_DFA/blob/main/DFA.JPG)
 
   - run simulates the operation of the constructed DFA on a given binary string. It returns
