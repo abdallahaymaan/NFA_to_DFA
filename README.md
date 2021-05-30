@@ -1,6 +1,6 @@
 # NFA_to_DFA
 Constructing a DFA equivalent to an NFA
-#1. Objective
+# 1. Objective
 For this task you need to implement the classical algorithm for constructing a deterministic
 finite automaton (DFA) equivalent to a non-deterministic finite automaton (NFA). Recall that
 an NFA is a quintuple (Q, Σ, δ, q0, F): Q is a non-empty, finite set of states; Σ is non-empty,
